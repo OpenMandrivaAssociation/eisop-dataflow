@@ -28,7 +28,7 @@ BuildRequires:	mvn(org.plumelib:plume-util) = 2.0.0
 BuildRequires:	mvn(org.plumelib:reflection-util) = 2.0.0
 BuildRequires:	mvn(org.plumelib:hashmap-util) = 2.0.0
 BuildRequires:	mvn(org.plumelib:javac-parse) = 1.0.0
-BuildRequires:	mvn(com.google.guava:guava) = 33.6.0-jre
+BuildRequires:	mvn(com.google.guava:guava) = 33.8.0-jre
 Requires:	mvn(org.checkerframework:javacutil) = %{version}
 Requires:	mvn(org.checkerframework:javacutil) = 3.41.0-eisop1
 Requires:	mvn(org.checkerframework:checker-qual) = 4.4.0
@@ -37,7 +37,7 @@ Requires:	mvn(org.plumelib:plume-util) = 2.0.0
 Requires:	mvn(org.plumelib:reflection-util) = 2.0.0
 Requires:	mvn(org.plumelib:hashmap-util) = 2.0.0
 Requires:	mvn(org.plumelib:javac-parse) = 1.0.0
-Requires:	mvn(com.google.guava:guava) = 33.6.0-jre
+Requires:	mvn(com.google.guava:guava) = 33.8.0-jre
 
 %description
 org.checkerframework:dataflow %{version} is the typetools Checker
@@ -138,7 +138,7 @@ build_old() (
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>33.6.0-jre</version>
+      <version>33.8.0-jre</version>
     </dependency>
   </dependencies>
 </project>
@@ -218,7 +218,7 @@ build_new() (
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>33.6.0-jre</version>
+      <version>33.8.0-jre</version>
     </dependency>
   </dependencies>
 </project>
